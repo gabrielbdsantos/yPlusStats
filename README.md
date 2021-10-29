@@ -1,7 +1,6 @@
-# yPlus
+# yPlusStats
 
-**TL;DR**<br/>
-Do not write a volScalarField every time the yPlus function object is called.
+**TL;DR**: Do not write a volScalarField every time the yPlus function object is called.
 
 ## Requirements
 
@@ -40,9 +39,8 @@ may lead to the following problems:
 
   3. Clone the repository
 
-    mkdir -p ${FOAM_RUN}/../src
     cd ${FOAM_RUN}/../src
-    git clone https://github.com/gabrielbsantos/yPlusStats
+    git clone https://github.com/gabrielbdsantos/yPlusStats
     cd yPlusStats
 
   4. Compile the library.
@@ -54,4 +52,4 @@ may lead to the following problems:
 The code is **not** approved or endorsed by OpenCFD Ltd., the producer of the
 OpenFOAM software and owner of the OprenFOAM and OpenCFD trade marks. Any
 implementations presented here are bound to the same license as OpenFOAM: the
-_GNU Public License v3_. See the [LICENSE](./LICENSE) for more information.
+GNU Public License v3. See the [LICENSE](./LICENSE) for more information.
